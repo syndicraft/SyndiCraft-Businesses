@@ -1,0 +1,14 @@
+name: Businesses
+version: '${project.version}'
+main: org.crewco.businesses.SCBusinesses
+api-version: '1.20'
+depend: [Vault]
+authors: [CarThax,XST99]
+
+commands:
+  business:
+    description: General Business Command
+    usage: /<command>
+  businessadmin:
+    description: General Business Admin Command
+    usage: /<command>

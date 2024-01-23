@@ -1,0 +1,13 @@
+org\crewco\file\MessageManager.class
+org\crewco\Business.class
+org\crewco\util\EconUtils.class
+org\crewco\BusinessManager$1.class
+org\crewco\util\NumberUtils.class
+org\crewco\BusinessManager.class
+org\crewco\commands\BusinessCommand.class
+org\crewco\commands\TabCompletions\BusinessTab.class
+org\crewco\commands\BusinessAdminCommand.class
+org\crewco\file\ConfigurationManager.class
+org\crewco\Employee.class
+org\crewco\businesses\SCBusinesses.class
+org\crewco\events\RegisterEvents.class
