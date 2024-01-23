@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.crewco.businesses.SCBusinesses;
+import org.crewco.SCBusinesses.SCBusinesses;
 
 public class MessageManager {
     private SCBusinesses vcBusiness;
@@ -28,7 +28,7 @@ public class MessageManager {
         }
         this.vcBusiness.getLogger().config("Messages file not found! Creating it now...");
         this.messagesFileConfig = (FileConfiguration)YamlConfiguration.loadConfiguration(this.messagesFile);
-        this.messagesFileConfig.set("Prefix", "&8[&5Syndi&aCraft &dBusiness&8]");
+        this.messagesFileConfig.set("Prefix", "&8[&5Syndi&5Craft &dBusiness&8]");
         this.messagesFileConfig.set("Arguments Error", "&7Error, please check your arguments and try again.");
         this.messagesFileConfig.set("Player Not Found", "&7Error, cannot find &a%player%&7.");
         this.messagesFileConfig.set("No Permission", "&7Error, you do not have permission for this command.");

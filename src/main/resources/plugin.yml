@@ -1,9 +1,9 @@
-name: Businesses
+name: SC-Business
 version: '${project.version}'
-main: org.crewco.businesses.SCBusinesses
+main: org.crewco.SCBusinesses.SCBusinesses
 api-version: '1.20'
 depend: [Vault]
-authors: [CarThax,XST99]
+authors: [CarThax,XST99,William Bar]
 
 commands:
   business:

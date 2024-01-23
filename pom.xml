@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.crewco</groupId>
-  <artifactId>Businesses</artifactId>
+  <artifactId>SC-Businesses</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 

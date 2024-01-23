@@ -9,5 +9,5 @@ org\crewco\commands\TabCompletions\BusinessTab.class
 org\crewco\commands\BusinessAdminCommand.class
 org\crewco\file\ConfigurationManager.class
 org\crewco\Employee.class
-org\crewco\businesses\SCBusinesses.class
 org\crewco\events\RegisterEvents.class
+org\crewco\SCBusinesses\SCBusinesses.class

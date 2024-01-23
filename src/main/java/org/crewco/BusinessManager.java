@@ -13,7 +13,7 @@ import org.bukkit.OfflinePlayer;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
-import org.crewco.businesses.SCBusinesses;
+import org.crewco.SCBusinesses.SCBusinesses;
 
 public class BusinessManager {
     private final SCBusinesses vcBusiness;

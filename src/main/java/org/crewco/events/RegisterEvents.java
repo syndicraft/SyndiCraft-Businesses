@@ -25,7 +25,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.Plugin;
 import org.crewco.Business;
 import org.crewco.BusinessManager;
-import org.crewco.businesses.SCBusinesses;
+import org.crewco.SCBusinesses.SCBusinesses;
 import org.crewco.file.MessageManager;
 import org.crewco.util.EconUtils;
 import org.crewco.util.NumberUtils;

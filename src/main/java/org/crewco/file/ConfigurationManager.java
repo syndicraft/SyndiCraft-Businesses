@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.crewco.businesses.SCBusinesses;
+import org.crewco.SCBusinesses.SCBusinesses;
 
 public class ConfigurationManager {
     private final SCBusinesses vcBusiness;
