@@ -154,6 +154,7 @@ public class BusinessAdminCommand implements CommandExecutor {
                 return true;
             }
             Player target = Bukkit.getPlayer(args[2]);
+            assert target != null;
             if (!this.businessManager.isBusinessEmployee(business, (OfflinePlayer)target)) {
                 p.sendMessage(this.msgManager.getMessage("Player Not An Employee").replace("%player%", target.getName()));
                 return true;

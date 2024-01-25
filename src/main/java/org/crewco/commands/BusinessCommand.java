@@ -124,10 +124,14 @@ public class BusinessCommand implements CommandExecutor {
                 return true;
             }
             Business business1 = this.businessManager.getBusiness(args[1]);
+            for (Player player:Bukkit.getOnlinePlayers()){
+                player.sendMessage(this.msgManager.getMessage("Prefix") + " " + this.msgManager.getMessage("Business Shutdown").replace("%business%",args[1]).replace("%owner%",deleter.getName()));
+            }
             if (!this.businessManager.isBusinessOwner(business1, (OfflinePlayer)deleter))
                 return true;
             this.businessManager.deleteBusiness(business1);
             return true;
+
         }
         if (args[0].equalsIgnoreCase("join") || args[0].equalsIgnoreCase("accept")) {
             if (!(sender instanceof Player))
